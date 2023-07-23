@@ -1,0 +1,55 @@
+# got from chatgpt
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore local development settings
+*.env
+*.sqlite3
+
+# Ignore static and media files served by Django
+/static/
+/media/
+
+# Ignore temporary and cache files
+*.log
+*.pot
+*.pyo
+*.swp
+*.tmp
+
+# Ignore database files for other database engines
+*.db
+*.sqlite
+*.sql
+
+# Ignore compiled frontend assets (e.g., JavaScript and CSS)
+/node_modules/
+/dist/
+/build/
+
+# Ignore secret files and credentials
+*.secret
+*.key
+*.pem
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+*.pydevproject
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore deployment configuration files
+/deploy/
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore virtual environment
+venv/
